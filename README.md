@@ -25,10 +25,7 @@ StudentHub is not just a project; it's a commitment to simplifying student admin
 
 # Student_Registration_System
 
-## Overview
-
-
-### Screenshots
+### Overview
 
 ## Login Preview
 
@@ -54,5 +51,6 @@ StudentHub is not just a project; it's a commitment to simplifying student admin
 - Winforms
 - Microsoft.NETCore.App
 - Microsoft.WindowsDesktop.App
+- MySQL
 
 
