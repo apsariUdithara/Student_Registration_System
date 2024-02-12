@@ -22,3 +22,44 @@ How to Use:
 🤝 Contribute & Collaborate: We welcome contributions, bug reports, and suggestions to enhance StudentHub further. Let's make educational management a breeze together!
 
 StudentHub is not just a project; it's a commitment to simplifying student administration. Dive into the code, explore the functionalities, and embark on a journey to transform educational management. Happy coding! 🚀✨
+
+# Student_Registration_System
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+- **Bonus**: Toggle the mobile menu (requires some JavaScript)
+
+### Screenshots
+
+## Login Preview
+
+![](./screenshots/Login.png)
+
+## Dashboard Preview
+
+![](./screenshots/Dashboard.png)
+
+## Student Preview
+
+![](./screenshots/StudentPage.png)
+
+## Departments Preview
+
+![](./screenshots/DepartmentsPage.png)
+
+## My process
+
+### Built with
+
+- C#
+- Winforms
+- Microsoft.NETCore.App
+- Microsoft.WindowsDesktop.App
+
+
