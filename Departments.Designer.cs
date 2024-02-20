@@ -30,9 +30,9 @@
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Departments));
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             pictureBox3 = new PictureBox();
             DeleteBtn = new Button();
             UpdateBtn = new Button();
@@ -98,6 +98,7 @@
             // DeleteBtn
             // 
             DeleteBtn.BackColor = Color.FromArgb(215, 190, 236);
+            DeleteBtn.Cursor = Cursors.Hand;
             DeleteBtn.FlatStyle = FlatStyle.Flat;
             DeleteBtn.Font = new Font("Comic Sans MS", 12.2000008F, FontStyle.Regular, GraphicsUnit.Point);
             DeleteBtn.ForeColor = Color.FromArgb(77, 77, 77);
@@ -112,6 +113,7 @@
             // UpdateBtn
             // 
             UpdateBtn.BackColor = Color.FromArgb(215, 190, 236);
+            UpdateBtn.Cursor = Cursors.Hand;
             UpdateBtn.FlatStyle = FlatStyle.Flat;
             UpdateBtn.Font = new Font("Comic Sans MS", 12.2000008F, FontStyle.Regular, GraphicsUnit.Point);
             UpdateBtn.ForeColor = Color.FromArgb(77, 77, 77);
@@ -126,6 +128,7 @@
             // AddBtn
             // 
             AddBtn.BackColor = Color.FromArgb(215, 190, 236);
+            AddBtn.Cursor = Cursors.Hand;
             AddBtn.FlatStyle = FlatStyle.Flat;
             AddBtn.Font = new Font("Comic Sans MS", 12.2000008F, FontStyle.Regular, GraphicsUnit.Point);
             AddBtn.ForeColor = Color.FromArgb(77, 77, 77);
@@ -140,6 +143,7 @@
             // DetailsTb
             // 
             DetailsTb.BackColor = Color.White;
+            DetailsTb.Cursor = Cursors.IBeam;
             DetailsTb.Font = new Font("Comic Sans MS", 11.9000006F, FontStyle.Regular, GraphicsUnit.Point);
             DetailsTb.ForeColor = Color.SlateGray;
             DetailsTb.Location = new Point(42, 260);
@@ -183,6 +187,7 @@
             // DepNameTb
             // 
             DepNameTb.BackColor = Color.White;
+            DepNameTb.Cursor = Cursors.IBeam;
             DepNameTb.Font = new Font("Comic Sans MS", 11.9000006F, FontStyle.Regular, GraphicsUnit.Point);
             DepNameTb.ForeColor = Color.SlateGray;
             DepNameTb.Location = new Point(43, 157);
@@ -214,26 +219,26 @@
             // DepartmentsList
             // 
             DepartmentsList.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle4.BackColor = Color.White;
-            DepartmentsList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = Color.FromArgb(175, 124, 216);
-            dataGridViewCellStyle5.Font = new Font("Comic Sans MS", 12.500001F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle5.ForeColor = Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = Color.FromArgb(112, 76, 172);
-            dataGridViewCellStyle5.SelectionForeColor = Color.White;
-            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
-            DepartmentsList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.BackColor = Color.White;
+            DepartmentsList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(175, 124, 216);
+            dataGridViewCellStyle2.Font = new Font("Comic Sans MS", 12.500001F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(112, 76, 172);
+            dataGridViewCellStyle2.SelectionForeColor = Color.White;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            DepartmentsList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             DepartmentsList.ColumnHeadersHeight = 30;
             DepartmentsList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = Color.White;
-            dataGridViewCellStyle6.Font = new Font("Comic Sans MS", 12.2000008F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle6.ForeColor = Color.DimGray;
-            dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle6.SelectionForeColor = Color.DimGray;
-            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
-            DepartmentsList.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = Color.White;
+            dataGridViewCellStyle3.Font = new Font("Comic Sans MS", 12.2000008F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = Color.DimGray;
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle3.SelectionForeColor = Color.DimGray;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            DepartmentsList.DefaultCellStyle = dataGridViewCellStyle3;
             DepartmentsList.GridColor = Color.FromArgb(231, 229, 255);
             DepartmentsList.Location = new Point(400, 121);
             DepartmentsList.Name = "DepartmentsList";
@@ -353,6 +358,7 @@
             // Dashboard
             // 
             Dashboard.AutoSize = true;
+            Dashboard.Cursor = Cursors.Hand;
             Dashboard.Font = new Font("Comic Sans MS", 13.2000008F, FontStyle.Regular, GraphicsUnit.Point);
             Dashboard.ForeColor = Color.FromArgb(60, 60, 60);
             Dashboard.Location = new Point(90, 306);
@@ -386,6 +392,7 @@
             // label10
             // 
             label10.AutoSize = true;
+            label10.Cursor = Cursors.Hand;
             label10.Font = new Font("Comic Sans MS", 12.2000008F, FontStyle.Regular, GraphicsUnit.Point);
             label10.ForeColor = Color.Gainsboro;
             label10.Location = new Point(98, 22);
@@ -461,6 +468,7 @@
             // StudentLbl
             // 
             StudentLbl.AutoSize = true;
+            StudentLbl.Cursor = Cursors.Hand;
             StudentLbl.Font = new Font("Comic Sans MS", 13.2000008F, FontStyle.Regular, GraphicsUnit.Point);
             StudentLbl.ForeColor = Color.FromArgb(60, 60, 60);
             StudentLbl.Location = new Point(90, 417);

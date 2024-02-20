@@ -31,7 +31,6 @@
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             panel1 = new Panel();
-            ResetBtn = new Label();
             label1 = new Label();
             CloseBtn = new PictureBox();
             pictureBox1 = new PictureBox();
@@ -54,7 +53,6 @@
             // panel1
             // 
             panel1.BackColor = Color.White;
-            panel1.Controls.Add(ResetBtn);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(CloseBtn);
             panel1.Controls.Add(pictureBox1);
@@ -67,17 +65,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(643, 637);
             panel1.TabIndex = 0;
-            // 
-            // ResetBtn
-            // 
-            ResetBtn.AutoSize = true;
-            ResetBtn.Font = new Font("Comic Sans MS", 13.8F, FontStyle.Underline, GraphicsUnit.Point);
-            ResetBtn.ForeColor = Color.Gray;
-            ResetBtn.Location = new Point(300, 569);
-            ResetBtn.Name = "ResetBtn";
-            ResetBtn.Size = new Size(75, 31);
-            ResetBtn.TabIndex = 9;
-            ResetBtn.Text = "Reset";
             // 
             // label1
             // 
@@ -92,6 +79,7 @@
             // 
             // CloseBtn
             // 
+            CloseBtn.Cursor = Cursors.Hand;
             CloseBtn.Image = (Image)resources.GetObject("CloseBtn.Image");
             CloseBtn.Location = new Point(597, 15);
             CloseBtn.Name = "CloseBtn";
@@ -114,6 +102,7 @@
             // LoginBtn
             // 
             LoginBtn.BackColor = Color.FromArgb(61, 19, 95);
+            LoginBtn.Cursor = Cursors.Hand;
             LoginBtn.FlatStyle = FlatStyle.Flat;
             LoginBtn.Font = new Font("Comic Sans MS", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             LoginBtn.ForeColor = Color.White;
@@ -236,7 +225,6 @@
         private Button LoginBtn;
         private PictureBox CloseBtn;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private Label ResetBtn;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;

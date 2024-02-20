@@ -9,6 +9,7 @@ namespace Student_Registration_System
         public Dashboard()
         {
             InitializeComponent();
+            timer1.Start();
 
             this.DoubleBuffered = true;
             Con = new Functions();
@@ -16,6 +17,7 @@ namespace Student_Registration_System
             CountDepartments();
             CountMale();
             CountFemale();
+
 
 
         }
@@ -85,7 +87,10 @@ namespace Student_Registration_System
             this.Close();
         }
 
-        
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label12.Text = DateTime.Now.ToString("hh:mm:ss");
+        }
     }
 }
 

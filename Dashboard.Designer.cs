@@ -46,11 +46,25 @@
             StudentLbl = new Label();
             panel1 = new Panel();
             panel2 = new Panel();
+            label12 = new Label();
+            panel23 = new Panel();
+            textBox2 = new TextBox();
+            panel24 = new Panel();
+            pictureBox13 = new PictureBox();
+            label9 = new Label();
+            panel21 = new Panel();
+            textBox1 = new TextBox();
+            panel22 = new Panel();
+            pictureBox21 = new PictureBox();
+            label6 = new Label();
             panel18 = new Panel();
+            pictureBox1 = new PictureBox();
             panel19 = new Panel();
+            pictureBox20 = new PictureBox();
             label2 = new Label();
             panel17 = new Panel();
             panel20 = new Panel();
+            pictureBox19 = new PictureBox();
             Calendar = new Label();
             monthCalendar1 = new MonthCalendar();
             panel14 = new Panel();
@@ -58,21 +72,25 @@
             pictureBox11 = new PictureBox();
             panel11 = new Panel();
             panel15 = new Panel();
+            pictureBox18 = new PictureBox();
             FemaleStudLbl = new Label();
             panel16 = new Panel();
             pictureBox12 = new PictureBox();
             label7 = new Label();
             panel7 = new Panel();
+            pictureBox16 = new PictureBox();
             label4 = new Label();
             DepNumLbl = new Label();
             panel8 = new Panel();
             pictureBox9 = new PictureBox();
             panel5 = new Panel();
+            pictureBox15 = new PictureBox();
             label3 = new Label();
             StudNumLbl = new Label();
             panel6 = new Panel();
             pictureBox3 = new PictureBox();
             panel9 = new Panel();
+            pictureBox17 = new PictureBox();
             label5 = new Label();
             MaleStudLbl = new Label();
             panel10 = new Panel();
@@ -92,37 +110,51 @@
             guna2Elipse11 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2Elipse12 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2Elipse13 = new Guna.UI2.WinForms.Guna2Elipse(components);
-            pictureBox1 = new PictureBox();
+            timer1 = new System.Windows.Forms.Timer(components);
+            guna2Elipse14 = new Guna.UI2.WinForms.Guna2Elipse(components);
+            guna2Elipse15 = new Guna.UI2.WinForms.Guna2Elipse(components);
             panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
+            panel23.SuspendLayout();
+            panel24.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
+            panel21.SuspendLayout();
+            panel22.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox21).BeginInit();
             panel18.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel19.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
             panel17.SuspendLayout();
             panel20.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox19).BeginInit();
             panel13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             panel11.SuspendLayout();
             panel15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
             panel16.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
             panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
             panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
             panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // guna2Elipse4
@@ -157,6 +189,7 @@
             // label10
             // 
             label10.AutoSize = true;
+            label10.Cursor = Cursors.Hand;
             label10.Font = new Font("Comic Sans MS", 12.2000008F, FontStyle.Regular, GraphicsUnit.Point);
             label10.ForeColor = Color.Gainsboro;
             label10.Location = new Point(98, 22);
@@ -230,6 +263,7 @@
             // DepLbl
             // 
             DepLbl.AutoSize = true;
+            DepLbl.Cursor = Cursors.Hand;
             DepLbl.Font = new Font("Comic Sans MS", 13.2000008F, FontStyle.Regular, GraphicsUnit.Point);
             DepLbl.ForeColor = Color.FromArgb(60, 60, 60);
             DepLbl.Location = new Point(90, 528);
@@ -242,6 +276,7 @@
             // StudentLbl
             // 
             StudentLbl.AutoSize = true;
+            StudentLbl.Cursor = Cursors.Hand;
             StudentLbl.Font = new Font("Comic Sans MS", 13.2000008F, FontStyle.Regular, GraphicsUnit.Point);
             StudentLbl.ForeColor = Color.FromArgb(60, 60, 60);
             StudentLbl.Location = new Point(90, 417);
@@ -270,12 +305,135 @@
             // panel2
             // 
             panel2.BackColor = Color.White;
+            panel2.Controls.Add(label12);
+            panel2.Controls.Add(panel23);
+            panel2.Controls.Add(panel21);
             panel2.Controls.Add(panel18);
             panel2.Controls.Add(panel17);
+            panel2.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
             panel2.Location = new Point(400, 121);
             panel2.Name = "panel2";
             panel2.Size = new Size(953, 793);
             panel2.TabIndex = 51;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Castellar", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            label12.ForeColor = Color.FromArgb(149, 81, 203);
+            label12.Location = new Point(328, 658);
+            label12.Name = "label12";
+            label12.Size = new Size(434, 96);
+            label12.TabIndex = 48;
+            label12.Text = "00:00:00";
+            // 
+            // panel23
+            // 
+            panel23.BackColor = Color.White;
+            panel23.Controls.Add(textBox2);
+            panel23.Controls.Add(panel24);
+            panel23.Location = new Point(517, 413);
+            panel23.Name = "panel23";
+            panel23.Size = new Size(414, 194);
+            panel23.TabIndex = 59;
+            // 
+            // textBox2
+            // 
+            textBox2.BorderStyle = BorderStyle.None;
+            textBox2.Font = new Font("Malgun Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox2.ForeColor = SystemColors.ControlDarkDark;
+            textBox2.Location = new Point(79, 99);
+            textBox2.Multiline = true;
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(298, 92);
+            textBox2.TabIndex = 1;
+            textBox2.Text = "Represents the information of the Departments. This department module helps to manage all the departments.\r\n\r\n\r\n";
+            textBox2.TextAlign = HorizontalAlignment.Center;
+            // 
+            // panel24
+            // 
+            panel24.BackColor = Color.WhiteSmoke;
+            panel24.Controls.Add(pictureBox13);
+            panel24.Controls.Add(label9);
+            panel24.Location = new Point(0, 0);
+            panel24.Name = "panel24";
+            panel24.Size = new Size(414, 82);
+            panel24.TabIndex = 0;
+            // 
+            // pictureBox13
+            // 
+            pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
+            pictureBox13.Location = new Point(79, 23);
+            pictureBox13.Name = "pictureBox13";
+            pictureBox13.Size = new Size(41, 33);
+            pictureBox13.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox13.TabIndex = 65;
+            pictureBox13.TabStop = false;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Comic Sans MS", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label9.ForeColor = Color.FromArgb(149, 81, 203);
+            label9.Location = new Point(126, 25);
+            label9.Name = "label9";
+            label9.Size = new Size(237, 31);
+            label9.TabIndex = 53;
+            label9.Text = "Departments Module";
+            // 
+            // panel21
+            // 
+            panel21.BackColor = Color.White;
+            panel21.Controls.Add(textBox1);
+            panel21.Controls.Add(panel22);
+            panel21.Location = new Point(30, 413);
+            panel21.Name = "panel21";
+            panel21.Size = new Size(414, 194);
+            panel21.TabIndex = 58;
+            // 
+            // textBox1
+            // 
+            textBox1.BorderStyle = BorderStyle.None;
+            textBox1.Font = new Font("Malgun Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.ForeColor = SystemColors.ControlDarkDark;
+            textBox1.Location = new Point(61, 88);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(306, 73);
+            textBox1.TabIndex = 1;
+            textBox1.Text = "Represents the information of the students. This module represents the data of students and departments\r\n";
+            textBox1.TextAlign = HorizontalAlignment.Center;
+            // 
+            // panel22
+            // 
+            panel22.BackColor = Color.WhiteSmoke;
+            panel22.Controls.Add(pictureBox21);
+            panel22.Controls.Add(label6);
+            panel22.Location = new Point(0, 0);
+            panel22.Name = "panel22";
+            panel22.Size = new Size(414, 82);
+            panel22.TabIndex = 0;
+            // 
+            // pictureBox21
+            // 
+            pictureBox21.Image = (Image)resources.GetObject("pictureBox21.Image");
+            pictureBox21.Location = new Point(61, 25);
+            pictureBox21.Name = "pictureBox21";
+            pictureBox21.Size = new Size(41, 33);
+            pictureBox21.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox21.TabIndex = 64;
+            pictureBox21.TabStop = false;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Comic Sans MS", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.ForeColor = Color.FromArgb(149, 81, 203);
+            label6.Location = new Point(108, 25);
+            label6.Name = "label6";
+            label6.Size = new Size(196, 31);
+            label6.TabIndex = 53;
+            label6.Text = "Students Module";
             // 
             // panel18
             // 
@@ -284,17 +442,39 @@
             panel18.Controls.Add(panel19);
             panel18.Location = new Point(30, 26);
             panel18.Name = "panel18";
-            panel18.Size = new Size(414, 360);
+            panel18.Size = new Size(414, 319);
             panel18.TabIndex = 57;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = Color.White;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(0, 79);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(414, 234);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 46;
+            pictureBox1.TabStop = false;
             // 
             // panel19
             // 
             panel19.BackColor = Color.WhiteSmoke;
+            panel19.Controls.Add(pictureBox20);
             panel19.Controls.Add(label2);
             panel19.Location = new Point(0, 0);
             panel19.Name = "panel19";
             panel19.Size = new Size(414, 82);
             panel19.TabIndex = 0;
+            // 
+            // pictureBox20
+            // 
+            pictureBox20.Image = (Image)resources.GetObject("pictureBox20.Image");
+            pictureBox20.Location = new Point(61, 26);
+            pictureBox20.Name = "pictureBox20";
+            pictureBox20.Size = new Size(41, 33);
+            pictureBox20.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox20.TabIndex = 63;
+            pictureBox20.TabStop = false;
             // 
             // label2
             // 
@@ -314,17 +494,28 @@
             panel17.Controls.Add(monthCalendar1);
             panel17.Location = new Point(517, 26);
             panel17.Name = "panel17";
-            panel17.Size = new Size(414, 360);
+            panel17.Size = new Size(414, 313);
             panel17.TabIndex = 56;
             // 
             // panel20
             // 
             panel20.BackColor = Color.WhiteSmoke;
+            panel20.Controls.Add(pictureBox19);
             panel20.Controls.Add(Calendar);
             panel20.Location = new Point(0, 0);
             panel20.Name = "panel20";
             panel20.Size = new Size(414, 82);
             panel20.TabIndex = 0;
+            // 
+            // pictureBox19
+            // 
+            pictureBox19.Image = (Image)resources.GetObject("pictureBox19.Image");
+            pictureBox19.Location = new Point(102, 28);
+            pictureBox19.Name = "pictureBox19";
+            pictureBox19.Size = new Size(41, 33);
+            pictureBox19.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox19.TabIndex = 62;
+            pictureBox19.TabStop = false;
             // 
             // Calendar
             // 
@@ -387,6 +578,7 @@
             // panel15
             // 
             panel15.BackColor = Color.FromArgb(241, 234, 255);
+            panel15.Controls.Add(pictureBox18);
             panel15.Controls.Add(FemaleStudLbl);
             panel15.Controls.Add(panel16);
             panel15.Controls.Add(label7);
@@ -395,16 +587,27 @@
             panel15.Size = new Size(329, 158);
             panel15.TabIndex = 51;
             // 
+            // pictureBox18
+            // 
+            pictureBox18.Image = (Image)resources.GetObject("pictureBox18.Image");
+            pictureBox18.Location = new Point(253, 33);
+            pictureBox18.Name = "pictureBox18";
+            pictureBox18.Size = new Size(52, 50);
+            pictureBox18.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox18.TabIndex = 61;
+            pictureBox18.TabStop = false;
+            // 
             // FemaleStudLbl
             // 
             FemaleStudLbl.AutoSize = true;
-            FemaleStudLbl.Font = new Font("Comic Sans MS", 17.2F, FontStyle.Bold, GraphicsUnit.Point);
+            FemaleStudLbl.Font = new Font("Comic Sans MS", 25.8000011F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             FemaleStudLbl.ForeColor = Color.FromArgb(149, 81, 203);
-            FemaleStudLbl.Location = new Point(182, 30);
+            FemaleStudLbl.Location = new Point(156, 31);
             FemaleStudLbl.Name = "FemaleStudLbl";
-            FemaleStudLbl.Size = new Size(79, 40);
+            FemaleStudLbl.Size = new Size(120, 62);
             FemaleStudLbl.TabIndex = 49;
             FemaleStudLbl.Text = "Num";
+            FemaleStudLbl.TextAlign = ContentAlignment.MiddleRight;
             // 
             // panel16
             // 
@@ -431,7 +634,7 @@
             label7.AutoSize = true;
             label7.Font = new Font("Comic Sans MS", 12.2000008F, FontStyle.Regular, GraphicsUnit.Point);
             label7.ForeColor = Color.FromArgb(98, 30, 152);
-            label7.Location = new Point(127, 86);
+            label7.Location = new Point(131, 86);
             label7.Name = "label7";
             label7.Size = new Size(178, 29);
             label7.TabIndex = 5;
@@ -440,6 +643,7 @@
             // panel7
             // 
             panel7.BackColor = Color.FromArgb(241, 234, 255);
+            panel7.Controls.Add(pictureBox16);
             panel7.Controls.Add(label4);
             panel7.Controls.Add(DepNumLbl);
             panel7.Controls.Add(panel8);
@@ -448,12 +652,22 @@
             panel7.Size = new Size(329, 158);
             panel7.TabIndex = 13;
             // 
+            // pictureBox16
+            // 
+            pictureBox16.Image = (Image)resources.GetObject("pictureBox16.Image");
+            pictureBox16.Location = new Point(252, 39);
+            pictureBox16.Name = "pictureBox16";
+            pictureBox16.Size = new Size(52, 50);
+            pictureBox16.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox16.TabIndex = 61;
+            pictureBox16.TabStop = false;
+            // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Comic Sans MS", 12.2000008F, FontStyle.Regular, GraphicsUnit.Point);
             label4.ForeColor = Color.FromArgb(98, 30, 152);
-            label4.Location = new Point(138, 75);
+            label4.Location = new Point(139, 89);
             label4.Name = "label4";
             label4.Size = new Size(139, 29);
             label4.TabIndex = 5;
@@ -462,13 +676,14 @@
             // DepNumLbl
             // 
             DepNumLbl.AutoSize = true;
-            DepNumLbl.Font = new Font("Comic Sans MS", 17.2F, FontStyle.Bold, GraphicsUnit.Point);
+            DepNumLbl.Font = new Font("Comic Sans MS", 25.8000011F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             DepNumLbl.ForeColor = Color.FromArgb(149, 81, 203);
-            DepNumLbl.Location = new Point(182, 24);
+            DepNumLbl.Location = new Point(156, 34);
             DepNumLbl.Name = "DepNumLbl";
-            DepNumLbl.Size = new Size(79, 40);
+            DepNumLbl.Size = new Size(120, 62);
             DepNumLbl.TabIndex = 48;
             DepNumLbl.Text = "Num";
+            DepNumLbl.TextAlign = ContentAlignment.MiddleRight;
             // 
             // panel8
             // 
@@ -494,6 +709,7 @@
             // panel5
             // 
             panel5.BackColor = Color.FromArgb(241, 234, 255);
+            panel5.Controls.Add(pictureBox15);
             panel5.Controls.Add(label3);
             panel5.Controls.Add(StudNumLbl);
             panel5.Controls.Add(panel6);
@@ -502,12 +718,22 @@
             panel5.Size = new Size(327, 158);
             panel5.TabIndex = 12;
             // 
+            // pictureBox15
+            // 
+            pictureBox15.Image = (Image)resources.GetObject("pictureBox15.Image");
+            pictureBox15.Location = new Point(250, 36);
+            pictureBox15.Name = "pictureBox15";
+            pictureBox15.Size = new Size(52, 50);
+            pictureBox15.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox15.TabIndex = 60;
+            pictureBox15.TabStop = false;
+            // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Comic Sans MS", 12.2000008F, FontStyle.Regular, GraphicsUnit.Point);
             label3.ForeColor = Color.FromArgb(98, 30, 152);
-            label3.Location = new Point(136, 76);
+            label3.Location = new Point(139, 95);
             label3.Name = "label3";
             label3.Size = new Size(104, 29);
             label3.TabIndex = 5;
@@ -516,11 +742,12 @@
             // StudNumLbl
             // 
             StudNumLbl.AutoSize = true;
-            StudNumLbl.Font = new Font("Comic Sans MS", 17.2F, FontStyle.Bold, GraphicsUnit.Point);
+            StudNumLbl.Font = new Font("Comic Sans MS", 25.8000011F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             StudNumLbl.ForeColor = Color.FromArgb(149, 81, 203);
-            StudNumLbl.Location = new Point(180, 27);
+            StudNumLbl.Location = new Point(154, 35);
             StudNumLbl.Name = "StudNumLbl";
-            StudNumLbl.Size = new Size(79, 40);
+            StudNumLbl.RightToLeft = RightToLeft.No;
+            StudNumLbl.Size = new Size(120, 62);
             StudNumLbl.TabIndex = 47;
             StudNumLbl.Text = "Num";
             // 
@@ -548,6 +775,7 @@
             // panel9
             // 
             panel9.BackColor = Color.FromArgb(241, 234, 255);
+            panel9.Controls.Add(pictureBox17);
             panel9.Controls.Add(label5);
             panel9.Controls.Add(MaleStudLbl);
             panel9.Controls.Add(panel10);
@@ -556,12 +784,22 @@
             panel9.Size = new Size(329, 158);
             panel9.TabIndex = 47;
             // 
+            // pictureBox17
+            // 
+            pictureBox17.Image = (Image)resources.GetObject("pictureBox17.Image");
+            pictureBox17.Location = new Point(253, 48);
+            pictureBox17.Name = "pictureBox17";
+            pictureBox17.Size = new Size(52, 50);
+            pictureBox17.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox17.TabIndex = 61;
+            pictureBox17.TabStop = false;
+            // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Comic Sans MS", 12.2000008F, FontStyle.Regular, GraphicsUnit.Point);
             label5.ForeColor = Color.FromArgb(98, 30, 152);
-            label5.Location = new Point(131, 77);
+            label5.Location = new Point(131, 102);
             label5.Name = "label5";
             label5.Size = new Size(157, 29);
             label5.TabIndex = 5;
@@ -570,13 +808,14 @@
             // MaleStudLbl
             // 
             MaleStudLbl.AutoSize = true;
-            MaleStudLbl.Font = new Font("Comic Sans MS", 17.2F, FontStyle.Bold, GraphicsUnit.Point);
+            MaleStudLbl.Font = new Font("Comic Sans MS", 25.8000011F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             MaleStudLbl.ForeColor = Color.FromArgb(149, 81, 203);
-            MaleStudLbl.Location = new Point(182, 25);
+            MaleStudLbl.Location = new Point(156, 43);
             MaleStudLbl.Name = "MaleStudLbl";
-            MaleStudLbl.Size = new Size(79, 40);
+            MaleStudLbl.Size = new Size(120, 62);
             MaleStudLbl.TabIndex = 49;
             MaleStudLbl.Text = "Num";
+            MaleStudLbl.TextAlign = ContentAlignment.MiddleRight;
             // 
             // panel10
             // 
@@ -704,16 +943,19 @@
             guna2Elipse13.BorderRadius = 20;
             guna2Elipse13.TargetControl = panel17;
             // 
-            // pictureBox1
+            // timer1
             // 
-            pictureBox1.BackColor = Color.White;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(0, 79);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(414, 259);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 46;
-            pictureBox1.TabStop = false;
+            timer1.Tick += timer1_Tick;
+            // 
+            // guna2Elipse14
+            // 
+            guna2Elipse14.BorderRadius = 15;
+            guna2Elipse14.TargetControl = panel21;
+            // 
+            // guna2Elipse15
+            // 
+            guna2Elipse15.BorderRadius = 15;
+            guna2Elipse15.TargetControl = panel23;
             // 
             // Dashboard
             // 
@@ -745,29 +987,47 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            panel23.ResumeLayout(false);
+            panel23.PerformLayout();
+            panel24.ResumeLayout(false);
+            panel24.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
+            panel21.ResumeLayout(false);
+            panel21.PerformLayout();
+            panel22.ResumeLayout(false);
+            panel22.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox21).EndInit();
             panel18.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel19.ResumeLayout(false);
             panel19.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox20).EndInit();
             panel17.ResumeLayout(false);
             panel20.ResumeLayout(false);
             panel20.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox19).EndInit();
             panel13.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             panel11.ResumeLayout(false);
             panel15.ResumeLayout(false);
             panel15.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
             panel16.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             panel7.ResumeLayout(false);
             panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
             panel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
             panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             panel9.ResumeLayout(false);
             panel9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
             panel10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
@@ -775,7 +1035,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -850,5 +1109,21 @@
         private MonthCalendar monthCalendar2;
         private Label label9;
         private PictureBox pictureBox1;
+        private TextBox textBox1;
+        private Panel panel23;
+        private TextBox textBox2;
+        private Panel panel24;
+        private Label label12;
+        private System.Windows.Forms.Timer timer1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse14;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse15;
+        private PictureBox pictureBox15;
+        private PictureBox pictureBox16;
+        private PictureBox pictureBox17;
+        private PictureBox pictureBox18;
+        private PictureBox pictureBox19;
+        private PictureBox pictureBox20;
+        private PictureBox pictureBox13;
+        private PictureBox pictureBox21;
     }
 }

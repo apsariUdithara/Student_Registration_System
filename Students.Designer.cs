@@ -228,6 +228,7 @@
             // DeleteBtn
             // 
             DeleteBtn.BackColor = Color.FromArgb(215, 190, 236);
+            DeleteBtn.Cursor = Cursors.Hand;
             DeleteBtn.FlatStyle = FlatStyle.Flat;
             DeleteBtn.Font = new Font("Comic Sans MS", 12.2000008F, FontStyle.Regular, GraphicsUnit.Point);
             DeleteBtn.ForeColor = Color.FromArgb(77, 77, 77);
@@ -242,6 +243,7 @@
             // UpdateBtn
             // 
             UpdateBtn.BackColor = Color.FromArgb(215, 190, 236);
+            UpdateBtn.Cursor = Cursors.Hand;
             UpdateBtn.FlatStyle = FlatStyle.Flat;
             UpdateBtn.Font = new Font("Comic Sans MS", 12.2000008F, FontStyle.Regular, GraphicsUnit.Point);
             UpdateBtn.ForeColor = Color.FromArgb(77, 77, 77);
@@ -256,6 +258,7 @@
             // AddBtn
             // 
             AddBtn.BackColor = Color.FromArgb(215, 190, 236);
+            AddBtn.Cursor = Cursors.Hand;
             AddBtn.FlatStyle = FlatStyle.Flat;
             AddBtn.Font = new Font("Comic Sans MS", 12.2000008F, FontStyle.Regular, GraphicsUnit.Point);
             AddBtn.ForeColor = Color.FromArgb(77, 77, 77);
@@ -458,6 +461,7 @@
             // DeptLbl
             // 
             DeptLbl.AutoSize = true;
+            DeptLbl.Cursor = Cursors.Hand;
             DeptLbl.Font = new Font("Comic Sans MS", 13.2000008F, FontStyle.Regular, GraphicsUnit.Point);
             DeptLbl.ForeColor = Color.FromArgb(60, 60, 60);
             DeptLbl.Location = new Point(90, 528);
@@ -491,6 +495,7 @@
             // label10
             // 
             label10.AutoSize = true;
+            label10.Cursor = Cursors.Hand;
             label10.Font = new Font("Comic Sans MS", 12.2000008F, FontStyle.Regular, GraphicsUnit.Point);
             label10.ForeColor = Color.Gainsboro;
             label10.Location = new Point(98, 22);
@@ -545,6 +550,7 @@
             // DashboardLbl
             // 
             DashboardLbl.AutoSize = true;
+            DashboardLbl.Cursor = Cursors.Hand;
             DashboardLbl.Font = new Font("Comic Sans MS", 13.2000008F, FontStyle.Regular, GraphicsUnit.Point);
             DashboardLbl.ForeColor = Color.FromArgb(60, 60, 60);
             DashboardLbl.Location = new Point(90, 306);
