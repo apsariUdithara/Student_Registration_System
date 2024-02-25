@@ -51,6 +51,6 @@ StudentHub is not just a project; it's a commitment to simplifying student admin
 - Winforms
 - Microsoft.NETCore.App
 - Microsoft.WindowsDesktop.App
-- MySQL
+- SQL Server
 
 
