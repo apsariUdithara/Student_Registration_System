@@ -1,7 +1,7 @@
 # Student_Registration_System
 
 StudentHub: Empowering Educational Management with C# WinForms and MySQL 🎓
-Welcome to StudentHub, your all-in-one solution for student administration! This vibrant C# WinForms project seamlessly integrates with a MySQL database to provide a dynamic and efficient platform for managing student records and departmental data.
+Welcome to StudentHub, your all-in-one solution for student administration! This vibrant C# WinForms project seamlessly integrates with a Microsoft SQL Server database to provide a dynamic and efficient platform for managing student records and departmental data.
 
 Features:
 🔐 Admin Authentication: Securely log in to the system with personalized admin credentials.
@@ -16,7 +16,7 @@ Features:
 
 How to Use:
 🔄 Clone the repository to your local machine.
-🏗 Set up the MySQL database using the provided schema.
+🏗 Set up the Microsoft SQL Server database using the provided schema.
 🔧 Open the project in Visual Studio, configure the database connection.
 🚀 Build and run the application to unleash the power of StudentHub.
 🤝 Contribute & Collaborate: We welcome contributions, bug reports, and suggestions to enhance StudentHub further. Let's make educational management a breeze together!
